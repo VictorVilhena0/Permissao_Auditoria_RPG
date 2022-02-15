@@ -8,6 +8,6 @@ SELECT * FROM Classe_Habilidade
 
 -- Caso o usuário tente realizar qualquer outra ação além do SELECT, aparecerá uma mensagem de erro
 UPDATE Usuario
-SET Email = 'hacker@email.net'
+SET Email = 'hacker@email.net' WHERE ID_Usuario = 1
 
 DELETE Classe
